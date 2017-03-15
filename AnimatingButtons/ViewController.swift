@@ -33,6 +33,8 @@ class ViewController: UIViewController {
         leftButton.isHidden = true
         rightButton.isHidden = true
         
+        centerButton.layer.zPosition = 1
+        
         leftButton.center = centerButton.center
         rightButton.center = centerButton.center
         
